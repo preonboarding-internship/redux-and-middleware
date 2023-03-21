@@ -1,5 +1,5 @@
 // Action Type
-const INCREASE = "counter/increase";
+export const INCREASE = "counter/increase";
 //
 // Action
 //
