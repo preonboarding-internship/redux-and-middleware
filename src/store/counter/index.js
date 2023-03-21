@@ -14,7 +14,7 @@ const increaseCounter = () => {
 const INITIAL_STATE = 0;
 
 const counterReducer = (prevState = INITIAL_STATE, action) => {
-  if (action.type === INCREASE) {
+  if (action?.type === INCREASE) {
     return prevState + 1;
   }
 
